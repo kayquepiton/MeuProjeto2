@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(void) {
+
     char letra = 'a'; // letra é uma variável de tipo char
     // a cada caractere corresponde um valor inteiro
     cout << "A letra " << letra << " corresponde ao valor " << int(letra) << endl;
@@ -20,5 +21,6 @@ int main(void) {
     cout << "O tipo char16_t ocupa " << sizeof(letra5) << " bytes na memória." << endl;
     char32_t letra6 = U'g'; // o tipo char32_t é usado para armazenar caracteres unicode
     cout << "O tipo char32_t ocupa " << sizeof(letra6) << " bytes na memória." << endl;
+
     return 0;
 }
