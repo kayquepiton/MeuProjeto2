@@ -13,7 +13,7 @@ int gera_aleatorio(){
 
     // Defina o intervalo desejado (por exemplo, de 1 a 100)
     int min = 1;
-    int max = 10;
+    int max = 100;
 
     // Crie uma distribuição uniforme dentro do intervalo
     uniform_int_distribution<int> dist(min, max);
