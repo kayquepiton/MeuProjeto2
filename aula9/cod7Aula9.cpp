@@ -20,6 +20,8 @@ int main() {
             cout << endl;
             count = i + 2;
         }
+
+        for (int j = 0; j < i; j++){
         
     }
     
