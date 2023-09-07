@@ -5,39 +5,53 @@
 using namespace std;
 
 int main() {
-
     int a, b, c = 0;
 
-    cout << "Entre com o valor o valor de a: ";
+    // Solicita ao usuário que insira o valor de 'a'.
+    cout << "Entre com o valor de a: ";
     cin >> a;
-    cout << "Entre com o valor o valor de b: ";
+
+    // Solicita ao usuário que insira o valor de 'b'.
+    cout << "Entre com o valor de b: ";
     cin >> b;
 
+    // Calcula a soma de 'a' e 'b' e armazena em 'c'.
     c = a + b;
 
-    cout << "Valor de c em hexadecimal: "<< hex << c << endl;
+    // Imprime o valor de 'c' em hexadecimal.
+    cout << "Valor de c em hexadecimal: " << hex << c << endl;
 
+    // Calcula o produto de 'a' e 'b' e atualiza 'c'.
     c = a * b;
 
-    cout << "Valor de c + a * b: "<< dec << c << endl;
+    // Imprime o valor de 'c' em decimal.
+    cout << "Valor de c + a * b: " << dec << c << endl;
 
+    // Calcula o módulo da diferença entre 'a' e 'b' usando abs() e atualiza 'c'.
     c = abs(a - b);
 
-    cout << "Módulo da diferença entre a e b: "<< dec << c << endl;
+    // Imprime o valor do módulo da diferença entre 'a' e 'b' em decimal.
+    cout << "Módulo da diferença entre a e b: " << dec << c << endl;
 
-    if (b > 0){
+    if (b > 0) {
+        // Calcula o quociente entre 'a' e 'b' e atualiza 'c'.
         c = a / b;
-        cout << "Valor do quociente entra a e b: "<< dec << c << endl;
+
+        // Imprime o valor do quociente entre 'a' e 'b' em decimal.
+        cout << "Valor do quociente entre a e b: " << dec << c << endl;
+
         float resto = a % b;
-        if (resto == 0){
+
+        if (resto == 0) {
+            // Verifica se a divisão é exata e exibe a mensagem apropriada.
             cout << "Divisão exata" << endl;
-        }else{
+        } else {
+            // Imprime o valor do resto da divisão.
             cout << "Resto da divisão: " << resto << endl;
         }
-        
-    }
-    else{
-        cout << "Não é possível realizar a divisão";
+    } else {
+        // Se 'b' for igual a zero, imprime que a divisão não é possível.
+        cout << "Não é possível realizar a divisão." << endl;
     }
 
     return 0;
