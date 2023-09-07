@@ -10,9 +10,9 @@ int main() {
 
     if (idade >= 18){
         cout << "Você é maior de idade." << endl;
+    }else{
+        cout << "Você é menor de idade." << endl;
     }
 
-    cout << "Fim do programa." << endl;
-    
     return 0;
 }
