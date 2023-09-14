@@ -1,2 +1,3 @@
-Bem-vindo ao projeto MeuProjeto! Este projeto tem o objetivo de explorar e aprender sobre Git e controle de versão.
-Além disso, estamos planejando adicionar um novo recurso de navegação para melhorar a experiência do usuário.
+Olá, iniciando introdução! Mudança para nova branch.
+Joao esteve aqui. Tentando fazer alteração mais uma vez
+Nova atualização do dev/kayque
