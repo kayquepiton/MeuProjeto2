@@ -19,7 +19,7 @@ int main() {
     int subtracao = numero1 - numero2;
     int multiplicacao = numero1 * numero2;
     float divisao = static_cast<float>(numero1) / numero2; // Converter um dos operandos para float
-    int resto = numero1 % numero2;
+    float resto = static_cast<float>(numero1 % numero2); // Converter o resultado para float
 
     // Exibir resultados
     cout << "Soma = " << soma << endl;
